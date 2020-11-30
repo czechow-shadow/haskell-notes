@@ -58,5 +58,8 @@ executable hask-static-lzma
   default-language:    Haskell2010
 ```
 
+## Show compilation/linking details (from stack)
 
-
+```
+stack build --cabal-verbose <target> --ghc-options=-v
+```
